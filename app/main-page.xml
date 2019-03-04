@@ -1,0 +1,29 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page">
+
+    <Page.actionBar>
+        <ActionBar title="My App" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+
+    <StackLayout class="p-20">
+
+        <Button text="TAP" tap="onTap" />
+
+        <StackLayout orientation="horizontal">
+
+            <AbsoluteLayout class="btn-red btn-wrapper">
+                <Button class="button" text="TAP" tap="onTap" touch="onTouch" />
+            </AbsoluteLayout>
+
+            <AbsoluteLayout class="btn-blue btn-wrapper">
+                <Button class="button" text="TAP" tap="onTap" touch="onTouch" />
+            </AbsoluteLayout>
+
+        </StackLayout>
+
+        <AbsoluteLayout class="btn-green btn-wrapper">
+            <Button class="button" text="TAP" tap="onTap" touch="onTouch" />
+        </AbsoluteLayout>
+
+    </StackLayout>
+</Page>

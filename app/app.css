@@ -1,0 +1,29 @@
+﻿.btn-wrapper {
+    width: 100;
+    height: 30;
+    margin: 10;
+}
+
+.button {
+    width: 100;
+    height: 30;
+
+    margin: 0;
+    padding: 0;
+    color: white;
+
+    border-width: 1;
+    border-color: transparent;
+}
+
+.btn-red {
+    background-color: rgb(143, 26, 26);
+}
+
+.btn-blue {
+    background-color: rgb(25, 25, 121);
+}
+
+.btn-green {
+    background-color: rgb(38, 90, 38);
+}
